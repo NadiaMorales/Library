@@ -1,0 +1,22 @@
+{
+  "name": "library",
+  "version": "0.1.0",
+  "description": "fotos con borde y tamaño",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyitaXD/Library.git"
+  },
+  "keywords": [
+    "fotos"
+  ],
+  "author": "Kesly Martinez Nadia Morales\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D y  Nadia Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyitaXD/Library/issues"
+  },
+  "homepage": "https://github.com/AyitaXD/Library#readme"
+}
