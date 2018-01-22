@@ -5,4 +5,5 @@
 
 2- Para el desarrollo Nadia creara el repositorio en Github y su compañera hara un pull request Dentro de esta carpera estara nuestro readme en donde iremos actualizando todas las tareas a realizar. 
 
-3- Para avanzar debemos instalar los programas requeridos. 
+3- Para avanzar debemos instalar los programas requerido
+4-
