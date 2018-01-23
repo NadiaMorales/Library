@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/AyitaXD/Library/issues"
   },
-  "homepage": "https://github.com/AyitaXD/Library#readme"
+  "homepage": "https://github.com/AyitaXD/Library#readme",
+  "devDependencies": {
+    "mocha": "^5.0.0"
+  }
 }
