@@ -1,8 +1,12 @@
 # Library
 
 
-1- Nuestro proyecto se trata de una mejora en el estilo de imagenes, con el fin de ahorrar tiempo para los desarrolladores hemos decidido crear nuestra libreria con imagenes que se puedan recordar y agregar bordes.
+1- Nuestro proyecto llamado STYLE-PICTURE se trata de una mejora en el estilo en imagenes, con el fin de ahorrar tiempo para los desarrolladores hemos decidido crear nuestra libreria con imagenes que se puedan recordar y agregar bordes.
 
-2- Para el desarrollo Nadia creara el repositorio en Github y su compañera hara un pull request Dentro de esta carpera estara nuestro readme en donde iremos actualizando todas las tareas a realizar. 
+2- Para esto tenemos un repositorio en github crearemos ramas individuales para subir nueestros cambios. 
 
-3- Para avanzar debemos instalar los programas requeridos. 
+3- Los programas instalados son:
+	-mocha.
+	-eslinter.
+	-node.js
+4- Creamos un html en como se vera nuestro proyecto. Se crearan las funciones con javascript.
