@@ -31,3 +31,4 @@ for (i = 0; i < img5.length; i++) {
 	img5[i].style.width = '100%';
 	img5[i].style.padding = '7px';
 }
+
