@@ -34,3 +34,7 @@ for (i = 0; i < img5.length; i++) {
 	img5[i].style.margin = '2em';
 
 }
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 3b8d5c229b72dc30d57d2461ca327922d4892f15
