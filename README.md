@@ -1,12 +1,34 @@
-# Library
+
+Una libreria para los amantes de las fotos se puede focalizar la foto y agregar columnas. si te gusta puedes dar stars.
 
 
-1- Nuestro proyecto llamado STYLE-PICTURE se trata de una mejora en el estilo en imagenes, con el fin de ahorrar tiempo para los desarrolladores hemos decidido crear nuestra libreria con imagenes que se puedan recordar y agregar bordes.
 
-2- Para esto tenemos un repositorio en github crearemos ramas individuales para subir nueestros cambios. 
+Inicializando Spicture.
 
-3- Los programas instalados son:
-	-mocha.
-	-eslinter.
-	-node.js
-4- Creamos un html en como se vera nuestro proyecto. Se crearan las funciones con javascript.
+Para Utilizar sPicture debera descargar sPicture.js y agregarlo a su carpeta js o bien puede agregar el link de este archivo
+<script type="Spicture.js"></script>
+o puede intalarlo en sus dependencias usando npm 
+	npm install sPicture.js
+
+Ejecucion
+
+Para usar nuestra libreria sPicture debe agregar imagenes a su gusto  y estas se ajustaran al tamaño en orden 
+		-xs
+		-s
+		-m
+		-l
+		-xl.
+
+Es importante seguir el oreden para que su galeria sea optima como se muestra en el demo. Tambien puede hacer un pequeño cambio de columnas estan predefinidas con 3 pero usted puede utilizarlas a su gusto. el zoom se aplicara inmediatamente despues de agregar las imagenes al html. 
+
+Y listo ya temenos nuestra galeria!
+
+
+
+
+
+Autor: Nadia Morales.
+	   Kesly Martinez
+
+
+
