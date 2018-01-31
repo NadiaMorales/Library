@@ -1,10 +1,15 @@
-'use string';
+'use stric';
 // tamaños para imagenes
-const img = document.getElementsByClassName('img-xs');
+
+ function sPicture() {
+const img = document.getElementById('img-xs');
 for (i = 0; i < img.length; i++) {
   img[i].style.width = '30%';
   img[i].style.padding = '7px 0';
-};
+  };
+}
+sPicture();
+
 const img2 = document.getElementsByClassName('img-s');
 for (i = 0; i < img2.length; i++) {
   img2[i].style.width = '50%';
@@ -28,6 +33,7 @@ for (i = 0; i < img5.length; i++) {
   img5[i].style.height = 'auto';
   img5[i].style.padding = '7px 0';
 };
+
 // funcion que agranda una imagen
 const imgHover = document.getElementsByClassName('imgZoom');
 for (var i = 0; i < imgHover.length; i++) {
@@ -45,3 +51,6 @@ const cont2 = document.getElementsByClassName('img-fluid');
 for (var i = 0; i < cont2.length; i++) {
   cont2[i].style.columnCount = '1';
 };
+
+
+module.exports = sPicture;
