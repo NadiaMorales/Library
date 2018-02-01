@@ -7,6 +7,7 @@ function imgSizeXs() {
     img[i].style.padding = '7px 0';
   };
 }
+
 function imgSizeS() {
   const img2 = document.getElementsByClassName('img-s');
   for (i = 0; i < img2.length; i++) {
@@ -14,6 +15,7 @@ function imgSizeS() {
     img2[i].style.padding = '7px 0';
   };
 }
+
 function imgSizeM() {
   const img3 = document.getElementsByClassName('img-m');
   for (i = 0; i < img3.length; i++) {
@@ -22,6 +24,7 @@ function imgSizeM() {
     img3[i].style.padding = '7px 0';
   };
 }
+
 function imgSizeL() {
   const img4 = document.getElementsByClassName('img-l');
   for (i = 0; i < img4.length; i++) {
@@ -30,6 +33,7 @@ function imgSizeL() {
     img4[i].style.padding = '7px 0';
   };
 }
+
 function imgSizeXl() {
   const img5 = document.getElementsByClassName('img-xl');
   for (i = 0; i < img5.length; i++) {
@@ -58,11 +62,17 @@ function imgGallery() {
       img7[i].style.padding = '7px 0';
     }
   };
-}
-function imgFluid() {
   const cont2 = document.getElementsByClassName('img-fluid');
   for (var i = 0; i < cont2.length; i++) {
     cont2[i].style.columnCount = '1';
   };
 }
-// module.exports.index = index;
+module.exports = {
+  imgSizeXs: imgSizeXs,
+  imgSizeS: imgSizeS,
+  imgSizeM: imgSizeM,
+  imgSizeL: imgSizeL,
+  imgSizeXl: imgSizeXl,
+  imgZoom: imgZoom,
+  imgGallery: imgGallery
+};
