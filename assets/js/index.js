@@ -1,5 +1,12 @@
 'use stric';
 // tamaños para imagenes
+function imgSizeXs() {
+  const img = document.getElementsByClassName('img-xs');
+  for (i = 0; i < img.length; i++) {
+    img[i].style.width = '30%';
+    img[i].style.padding = '7px 0';
+  };
+}
 function imgSizeS() {
   const img2 = document.getElementsByClassName('img-s');
   for (i = 0; i < img2.length; i++) {
@@ -59,4 +66,3 @@ function imgFluid() {
   };
 }
 // module.exports.index = index;
-
