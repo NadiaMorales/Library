@@ -4,7 +4,7 @@
   "description": "fotos con borde y tamaño",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter=nyan"
   },
   "repository": {
     "type": "git",

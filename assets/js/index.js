@@ -53,4 +53,7 @@ for (var i = 0; i < cont2.length; i++) {
 };
 
 
-module.exports = sPicture;
+module.exports = {
+  xsPicture : xsPicture,
+  sPicture : sPicture
+};
