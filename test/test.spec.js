@@ -1,27 +1,27 @@
 const chai = require('chai');
-
-const jsdom = require("jsdom");
+const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
-let domsPicture = new JSDOM('<!doctype html><html><body><input id="img-xs"></input></body></html>');
-const { window } = domsPicture;
-global.document = domsPicture;
+let dom = new JSDOM('<!doctype html><html><body><img class="img-xl" src="assets/img/tigre1.jpg" alt=""></body></html>');
+const { window } = dom;
+global.document = dom;
 global.window = window;
 global.navigator = {
-    userAgent: 'node.js',
+  userAgent: 'node.js',
 };
 
+var assert = require('chai').assert;
+const library = require('../assets/js/index');
 
-const IMGDom = require("../assets/js/index");
-
-describe("Valida clase img-xl",function(){
-	IMGDom('#img-xs');
-
-
+describe('Validar clase', () => {
+  // it('prueba de validar clase', () =>{
+  //   assert.equal(, library.index);
+  // });
+  it('debería devolver true si se invoca la función por medio de la clase', () => {
 	it("prueba de validar clase",function(){
 		IMGDom.sPicture();
 		chai.assert.equal(document.getElementsByClassName("img-xs")[0].)
-	
 	})
-
+  });
+  it('debería devolver false si no se invoca', () => {
+  });
 });
-	
