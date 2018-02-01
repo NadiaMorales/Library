@@ -1,5 +1,5 @@
 {
-  "name": "library",
+  "name": "galleryPicture",
   "version": "0.1.0",
   "description": "fotos con borde y tamaño",
   "main": "index.js",
