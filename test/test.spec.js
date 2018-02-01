@@ -17,9 +17,11 @@ describe('Validar clase', () => {
   //   assert.equal(, library.index);
   // });
   it('debería devolver true si se invoca la función por medio de la clase', () => {
-
+	it("prueba de validar clase",function(){
+		IMGDom.sPicture();
+		chai.assert.equal(document.getElementsByClassName("img-xs")[0].)
+	})
   });
   it('debería devolver false si no se invoca', () => {
-
   });
 });
