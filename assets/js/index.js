@@ -1,6 +1,6 @@
 'use stric';
 // tamaños para imagenes
-function sPicture() {
+const index = function() {
   const img = document.getElementsByClassName('img-xs');
   for (i = 0; i < img.length; i++) {
     img[i].style.width = '30%';
@@ -46,7 +46,6 @@ function sPicture() {
   for (var i = 0; i < cont2.length; i++) {
     cont2[i].style.columnCount = '1';
   };
-}
-sPicture();
-
-// module.exports = sPicture();
+};
+// index();
+module.exports.index = index;
