@@ -44,7 +44,7 @@ for (var i = 0; i < imgHover.length; i++) {
 // galeria de imagenes
 const cont = document.getElementsByClassName('gallery');
 for (i = 0; i < cont.length; i++) {
-  cont[i].style.columnCount = 3; // Generador de Columnas
+  cont[i].style.columnCount = 2; // Generador de Columnas
 };
 
 const cont2 = document.getElementsByClassName('img-fluid');

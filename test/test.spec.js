@@ -18,10 +18,10 @@ describe("Valida clase img-xl",function(){
 
 
 	it("prueba de validar clase",function(){
-		assert.equal(true, IMGDom.sPicture(document.getElementById('img-xs')));
-		
+		IMGDom.sPicture();
+		chai.assert.equal(document.getElementsByClassName("img-xs")[0].)
 	
-			})
+	})
 
 });
 	
