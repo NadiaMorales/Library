@@ -1,45 +1,45 @@
 
 <p align="center">
-	<img src="assets/img/logo.png">
+	<img src="assets/img/logo.png" width="200px" height="200px">
 </p>
-<h1 align="center">sPicture</h1>
+<h1 align="center">picturegall</h1>
+
+## Libreria picturegall
+picturegall es una galeria de imagenes para los los amantes de las imagenes se puede focalizar la foto y agregar columnas. si te gusta puedes dar stars <img src="assets/img/srtar.jpg" width="30px" height="30px">
+<div align="center"><img src="https://img.shields.io/apm/l/vim-mode.svg">
+<img src="https://img.shields.io/npm/v/@cycle/core.svg">
+</div>
 
 
+## Inicializando picturegall.
+Para instalar picturegall puede hacerlo
+### NPM 
+	$ npm install --save picturegall
 
+### CDN 
+<script src="https://cdn.jsdelivr.net/npm/picturegall@2.0.0/lib/index.js"></script>
 
-## Libreria sPicture
-sPicture es una galeria de imagenes para los los amantes de las imagenes se puede focalizar la foto y agregar columnas. si te gusta puedes dar stars <img src="assets/img/srtar.jpg">
+### Puede ver un ejemplo el uso de esta libreria [**picturegall**](https://ayitaxd.github.io/Library/)
 
+#### Creando una galeria
+Para usar picturegall debe enlazar el script con el CDN en el index de su proyecto en la etiqueta body.
+Debe colocar las imagenes con las que desee hacer su galeria  dentro de un div con la clase gallery esta hara que automaticamente sus imagenes se ordenen en cuadricula.
 
-## Inicializando Spicture.
+### Tamaños de imagenes
 
-Para Utilizar sPicture debera descargar sPicture.js y agregarlo a su carpeta js o bien puede agregar el link de este archivo
-<script type="sPicture.js"></script>
-o puede instalarlo en sus dependencias usando npm 
-## npm install sPicture.js
+Las clases img-xs img-s img-m  img-l img-xl, se le pueden dar distintos dimensiones a sus imagenes, solo agregue estas clases dentro de la etiqueta img. 
 
-## Ejecución
+### Hover 
 
-Para usar nuestra libreria sPicture debe agregar imagenes a su gusto  y estas se ajustaran al tamaño en orden 
-		## -xs
-		## -s
-		## -m
-		## -l
-		## -xl.
+Si desea agregar efecto a su imagen debe agregar a la misma clase imgZoom. 
 
-Es importante seguir el orden para que su galeria sea optima como se muestra en el demo. Tambien puede hacer un pequeño cambio de columnas estan predefinidas con 3 pero usted puede utilizarlas a su gusto. el zoom se aplicara inmediatamente despues de agregar las imagenes al html. 
+Es importante seguir el orden para que su galeria sea optima como se muestra en el [**demo**](https://ayitaxd.github.io/Library/). Tambien puede hacer un pequeño cambio de columnas estan predefinidas con 3 pero usted puede utilizarlas como lo desee. el zoom se aplicara inmediatamente despues de agregar las imagenes al html llamando al la funcion. 
 
 Y listo ya temenos nuestra galeria!
 
-
-
-
-
-## Autor:
-[Nadia Morales](https://github.com/AyitaXD),[Kesly Martinez](https://github.com/keslymartinez).
+### Autor:[Nadia Morales](https://github.com/AyitaXD),[Kesly Martinez](https://github.com/keslymartinez).
 
 
 ## Licencia 
-[Spicture](licencia)
-
+  Este proyecto esta licenciado bajo la licencia [**MIT**](https://opensource.org/licenses/MIT).
 
