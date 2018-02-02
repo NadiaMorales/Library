@@ -1,7 +1,7 @@
 {
-  "name": "galleryPicture",
-  "version": "0.1.0",
-  "description": "fotos con borde y tamaño",
+  "name": "picturegall",
+  "version": "1.0.1",
+  "description": "Libreia JS para crear una galeria de imagenes con distintos efectos",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter=nyan"
