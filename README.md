@@ -1,28 +1,31 @@
 
 <p align="center">
 	<img src="demo/assets/img/logo.png" width="200px" height="200px">
+	<br/>
+	<img src="https://img.shields.io/apm/l/vim-mode.svg">
+	<img src="https://img.shields.io/npm/v/@cycle/core.svg">
 </p>
-<h1 align="center">picturegall</h1>
 
-## Libreria picturegall
-picturegall es una galeria de imagenes para los los amantes de las imagenes se puede focalizar la foto y agregar columnas. si te gusta puedes dar stars <img src="demo/assets/img/srtar.jpg" width="30px" height="30px">
-<div align="center"><img src="https://img.shields.io/apm/l/vim-mode.svg">
-<img src="https://img.shields.io/npm/v/@cycle/core.svg">
-</div>
+# Picturegall
+Es un pluging de jquery que te permite crear una hermosa galeria de imagenes ademas darles tamaño y zoom, tan solo agregando la clase adecuada.
 
+![picturegall](https://user-images.githubusercontent.com/32284135/37880277-0ad31e4c-305c-11e8-82f7-7919b3ed3c57.png)
 
 ## Inicializando picturegall.
-Para instalar picturegall puede hacerlo
+Puede instalar picturegall de tres formas:
 ### NPM 
 	$ npm install --save picturegall
 
 ### CDN 
-<script src="https://cdn.jsdelivr.net/npm/picturegall@2.0.0/lib/index.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/picturegall@2.0.0/lib/index.js"></script>
+
+### Descargar
+<a href="assets/download/picturegall.zip" download="" role="button">Descarga Picturegall</a>
 
 ### Puede ver un ejemplo el uso de esta libreria [**picturegall**](https://NadiaMorales.github.io/Library/)
 
 #### Creando una galeria
-Para usar picturegall debe enlazar el script con el CDN en el index de su proyecto en la etiqueta body.
+Para usar picturegall debe enlazar el script con el CDN en el index de su proyecto al final de la etiqueta body.
 Debe colocar las imagenes con las que desee hacer su galeria  dentro de un div con la clase gallery esta hara que automaticamente sus imagenes se ordenen en cuadricula.
 
 ### Tamaños de imagenes
@@ -38,9 +41,11 @@ Es importante seguir el orden para que su galeria sea optima como se muestra en 
 Y listo ya temenos nuestra galeria!
 
 ### Autoras: 
-[Nadia Morales](https://github.com/NadiaMorales), [Kesly Martinez](https://github.com/keslymartinez)
+#### [Nadia Morales](https://github.com/NadiaMorales)
+#### [Kesly Martinez](https://github.com/keslymartinez)
 
 
 ## Licencia 
   Este proyecto esta licenciado bajo la licencia [**MIT**](https://opensource.org/licenses/MIT).
 
+## Desarrollado para [Laboratoria](http://laboratoria.la)
