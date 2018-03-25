@@ -7,7 +7,7 @@
 </p>
 
 # Picturegall
-Es un pluging de jquery que te permite crear una hermosa galeria de imagenes ademas darles tamaño y zoom, tan solo agregando la clase adecuada.
+Es un pluging creado con javascript vanilla que te permite crear una hermosa galería de imágenes, ademas darles tamaño y zoom, tan solo agregando la clase adecuada.
 
 ![picturegall](https://user-images.githubusercontent.com/32284135/37880277-0ad31e4c-305c-11e8-82f7-7919b3ed3c57.png)
 
