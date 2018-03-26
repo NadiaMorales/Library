@@ -23,7 +23,7 @@
 ### Descargar
  <a href="assets/download/picturegall.zip" download="" role="button">Descarga Picturegall</a>
 
-### Puede ver un ejemplo el uso de esta libreria [**picturegall**](https://NadiaMorales.github.io/Library/)
+### Puede ver un ejemplo el uso de esta libreria [picturegall](https://NadiaMorales.github.io/Library/)
 
 #### Creando una galeria
  Para usar picturegall debe enlazar el script con el CDN en el index de su proyecto al final de la etiqueta body.
