@@ -11,6 +11,8 @@
 
 ![picturegall](https://user-images.githubusercontent.com/32284135/37880277-0ad31e4c-305c-11e8-82f7-7919b3ed3c57.png)
 
+[Laboratoria](http://laboratoria.la)
+
 ### Inicializando picturegall.
  Puede instalar picturegall de tres formas:
  
