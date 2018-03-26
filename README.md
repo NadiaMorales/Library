@@ -23,7 +23,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/picturegall@2.0.0/lib/index.js"></script>
 
 ### Descargar
- <a href="lib/picturegall.zip" download role="button">Descarga Picturegall</a>
+ <a href="https://github.com/NadiaMorales/Library/files/1849864/picturegall.zip" download role="button">Descarga Picturegall</a>
 
 ### Puede ver un ejemplo el uso de esta libreria [picturegall](https://NadiaMorales.github.io/Library/)
 
